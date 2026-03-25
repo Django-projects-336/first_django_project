@@ -5,3 +5,6 @@ from django.http import HttpResponse
 # url --> 127.0.0.1:8000/app1/page1
 def page1(request) :
         return HttpResponse("<h1> Hello Page 1 </h1>")
+
+def page2(request) :
+        return HttpResponse("<h1> Hello Page 2 </h1>")
